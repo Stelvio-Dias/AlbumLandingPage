@@ -1,0 +1,191 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    -ms-scroll-behavior: smooth;
+}
+body
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    overflow: hidden !important;
+}
+.banner
+{
+    width: 100vw;
+    height: 100vh;
+}
+.start,
+#page1,
+.foto
+{
+    background: url('Baixados na net/girl_piercing_dreadlocks_122679_1920x1080.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#page2,
+.foto2
+{
+    background: url('Baixados na net/green-eyed_girl_eyes_face_87504_1920x1080.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#page3,
+.foto3
+{
+    background: url('Baixados na net/girl_anime_grass_lying_art_107288_1366x768.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#page4,
+.foto4
+{
+    background: url('Baixados na net/naruto_deidara_sasori_anime_105641_1366x768.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#page5,
+.foto5
+{
+    background: url('Baixados na net/MK.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.filtro
+{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+.sem-filtro
+{
+    position: relative;
+    z-index: 1;
+}
+.page
+{
+    position: relative;
+}
+.banner .title,
+.centro
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: visible;
+}
+.title h1
+{
+    font-size: 5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    pointer-events: none;
+}
+.title a
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 0.5px solid white;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+.title a:hover
+{
+    color: #000;
+    background-color: rgb(255, 255,0);
+    font-weight:700;
+    box-shadow:5px 5px 15px #000;
+    border: none;
+}
+.box
+{
+    width: 65%;
+    height: 80vh;
+    background-color: #fff;
+    overflow: visible;
+}
+.control
+{
+    border: 0.5px solid #000;
+    background-color: rgb(255,255,0);
+    color: #000;
+    overflow: visible;
+	transition:.5s;
+}
+.control:hover
+{
+    box-shadow:5px 5px 15px #000;
+}
+.link-estilo
+{
+    font-size: 22px;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.data
+{
+    height: 100px;
+    width: 70px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    pointer-events: none;
+}
+.data span
+{
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.top
+{
+    position: absolute;
+    right: 5%;
+    top: -5%;
+}
+.left
+{
+    position: absolute;
+    top: 10%;
+    left: -5%;
+}
+.right
+{
+    position: absolute;
+    bottom: 10%;
+    right: -5%;
+}
+.bottom
+{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+}
+.text
+{
+    background-color: rgba(0,0,0,0.95);
+    padding: 5px 10px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    width: 80%;
+    pointer-events: none;
+}
+.numero-pagina
+{
+    padding: 5px;
+    pointer-events: none;
+    font-size: 28px;
+    font-weight: 700;
+}
